@@ -37,7 +37,7 @@ function setup() {
 
 
 function draw() {
-  background("lightblue");
+  background("white");
 
   if (gameState === play) {
     ground.velocityX = -4;
