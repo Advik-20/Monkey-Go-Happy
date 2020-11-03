@@ -98,7 +98,7 @@ function banana() {
 function obstacle() {
   if (frameCount % 100 === 0) {
     var obstacle = createSprite(800, 210, 20, 20);
-    obstacle.scale = 0.75;
+    obstacle.scale = 0.01;
     obstacle.addImage(obstaceImage);
     obstacle.velocityX = -4;
     obstacle.lifetime = 200;
